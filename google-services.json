@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1022421265887",
+    "firebase_url": "https://unidad2-aa216.firebaseio.com",
+    "project_id": "unidad2-aa216",
+    "storage_bucket": "unidad2-aa216.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022421265887:android:16c354ac8396e5a1f9686a",
+        "android_client_info": {
+          "package_name": "mx.edu.utng.appfragment"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022421265887-bue4cm6j4m4d2urp1geg3v9s4sk1t7pa.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "mx.edu.utng.appfragment",
+            "certificate_hash": "449fb49e7c41e3749c9f269b9e0a362185288eb1"
+          }
+        },
+        {
+          "client_id": "1022421265887-7cfc0flhnclj3v1u6kk6aeqrf8cn0mtn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAk9xotu29_XEL_-kz2DlsGprCJu3QDb9w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022421265887-7cfc0flhnclj3v1u6kk6aeqrf8cn0mtn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
