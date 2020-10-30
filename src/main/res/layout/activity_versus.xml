@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    android:shrinkColumns="*"
+    tools:context=".VersusActivity">
+
+    <TableRow
+        android:background="#66CCFF"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:padding="5dp"
+        >
+
+        <TextView
+            android:layout_width="79dp"
+            android:padding="3dip"
+            android:text=""
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="15dp" />
+        <TextView
+            android:textAlignment="center"
+            android:text="Con servidor"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:gravity="right"
+            android:padding="3dip"
+            tools:ignore="RtlCompat" />
+        <TextView
+            android:textAlignment="center"
+            android:text="Serverless"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:gravity="right"
+            android:padding="3dip"
+            tools:ignore="RtlCompat" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Estructura de la organización"
+            android:textStyle="bold"
+            android:padding="3dp"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:text="Funciones únicas, \nseparación en silos"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat" />
+        <TextView
+            android:text="Integración de Operaciones\ny Desarrollo."
+            android:gravity="right"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"/>
+    </TableRow>
+    <TableRow
+        android:background="#CCFFFF"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="\nHabilidades\n"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+        <TextView
+            android:text="Sistemas operativos, ingeniería de redes."
+            android:textColor="@android:color/black"
+            tools:ignore="RtlCompat"/>
+        <TextView
+            android:text="Automatización, diseño de procesos, control del\n cambio, comunicaciones."
+            android:gravity="right"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Ciclo de vida"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+             />
+        <TextView
+            android:text="Release, producción.\n"
+            android:gravity="right"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"/>
+        <TextView
+            android:text="Diseño, desarrollo, testeo, \nrelease y producción."
+            android:gravity="right"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"/>
+    </TableRow>
+    <TableRow
+        android:background="#CCFFFF">
+        <TextView
+            android:text="Trabajo\n"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:text="Motorizado por \ninterrupciones."
+            android:gravity="right"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"/>
+        <TextView
+            android:text="Reactivo, más proactivo."
+            android:gravity="right"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Qué es lo \nque importa"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+             />
+        <TextView
+            android:text="Uptime del servidor\n"
+            android:gravity="right"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"/>
+        <TextView
+            android:text="Escalabilidad, confiabilidad \ne instrumentación."
+            android:gravity="right"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"/>
+    </TableRow>
+    <TableRow
+        android:background="#CCFFFF">
+        <TextView
+            android:text="\n\n\n\n\n\n\nFoco\n\n\n\n\n"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:text="\n\n\Capacidad de I/O de discos.\nBalanceadores de carga.\nServidores de aplicaciones.\nBases de datos.\nBugs de software.\n\n\n"
+            android:gravity="right"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"/>
+        <TextView
+            android:text="Uptime de los proveedores de nube.\nBalanceadores de cargas de nube.\nContenedores.\nModelos de almacenamiento persistente.\nBugs de software.\nHerramientas de CI/CD.\nModelos de seguridad.State.\nLlamadas a APIs de terceras partes.\nCorrupción de datos."
+            android:gravity="right"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="KPI"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            />
+        <TextView
+            android:text="Uptime del sistema"
+            android:gravity="right"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"/>
+        <TextView
+            android:text="Experiencia del cliente"
+            android:gravity="right"
+            android:textColor="@android:color/black"
+            android:textAlignment="center"
+            tools:ignore="RtlCompat"/>
+    </TableRow>
+</TableLayout>

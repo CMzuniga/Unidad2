@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VentajasActivity">
+
+    <ImageView
+        android:layout_width="50pt"
+        android:layout_height="50pt"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/ic_cumple" />
+
+    <TextView
+        android:layout_width="243dp"
+        android:layout_height="171dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="30dp"
+        android:text="Ya no tienes que hacer mantenimiento de los servidores donde tienes instalados todos los programas y aplicaciones. El código se ejecuta en un contenedor temporal, ya no vas a necesitar instalar software, gestionar puertos de acceso o estar pendiente de las actualizaciones."
+        android:textColor="@android:color/black"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:layout_width="50pt"
+        android:layout_height="50pt"
+        android:layout_marginTop="230dp"
+        android:src="@drawable/ic_cumple" />
+
+    <TextView
+        android:layout_width="243dp"
+        android:layout_height="108dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="235dp"
+        android:text="El sistema lo puedes escalar de manera horizontal todo lo que lo necesites. Puedes añadir todos los clústeres, balanceo de cargas... conforme lo vayas necesitando."
+        android:textColor="@android:color/black"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:layout_width="50pt"
+        android:layout_height="50pt"
+        android:layout_marginTop="370dp"
+        android:src="@drawable/ic_cumple" />
+
+    <TextView
+        android:layout_width="243dp"
+        android:layout_height="98dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="380dp"
+        android:text="Las funciones que utilizas las puedes integrar con el resto de servicios que ofrece la plataforma, como son logging, virtualización o crear endpoints."
+        android:textColor="@android:color/black"
+        android:textSize="15dp" />
+
+    <ImageView
+        android:layout_width="50pt"
+        android:layout_height="50pt"
+        android:layout_marginTop="500dp"
+        android:src="@drawable/ic_cumple" />
+
+    <TextView
+        android:layout_width="243dp"
+        android:layout_height="122dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="500dp"
+        android:text="La tecnología Serverless te permite acceder a una nueva dimensión en la forma de trabajar, ya que trabajas con un servidor temporal con los servicios adaptados a lo que necesitas durante el proceso."
+        android:textColor="@android:color/black"
+        android:textSize="15dp" />
+    <ImageView
+        android:layout_width="30pt"
+        android:layout_height="30pt"
+        android:layout_marginTop="630dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/ic_cumple" />
+
+    <TextView
+        android:layout_width="243dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="640dp"
+        android:text="Solamente vas a pagar por el tiempo que estés usando el proceso."
+        android:textColor="@android:color/black"
+        android:textSize="15dp" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

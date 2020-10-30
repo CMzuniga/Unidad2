@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DiferenciasActivity">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="325dp"
+        android:layout_height="198dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="28dp"
+        android:src="@drawable/ic_diferencias"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="329dp"
+        android:layout_height="187dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:text="En los contenedores, la capa de abstracción de software está por encima del sistema operativo, pero por debajo del nivel del código de la aplicación. Las implementaciones de contenedores se han posicionado en torno a Kubernetes como un estándar de la industria, lo que es alentador en su potencial para la portabilidad de la carga de trabajo entre nubes."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.461"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="336dp"
+        android:layout_height="255dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginTop="424dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginRight="27dp"
+        android:text="Las tecnologías serverless, mejor identificadas como “Function as a Service o FaaS, saltaron a la popularidad en 2017. El abordaje serverless hace abstracción de la infraestructura de cómputo completamente desde el punto de vista del usuario; los desarrolladores suben snippets (pequeñas porciones reutilizables de código de programación) a través de una interfaz, y esos snippets son ejecutados en segundo plano sin necesidad de aprovisionamiento o gestión de ningún servidor, container u otra unidad de cómputo."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.578"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

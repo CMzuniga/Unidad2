@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QueEsActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100pt"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/ic_que_es" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="300dp"
+        android:textSize="15dp"
+        android:text="Aunque significa sin servidor esto no es así, lo que ocurre es que dejas de usar un servidor físico o uno en la nube claramente identificados por unos contenedores temporales y sin estado donde se ejecutan los códigos de las aplicaciones. Estos contenedores se crean en el momento que ejecutas la aplicación y luego desaparecen, por lo que el servidor pasa a ser una parte menos visible del sistema."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="500dp"
+        android:textSize="15dp"
+        android:text="Esta tecnología se asocia con FaaS que significa Function as a Service, que fue creada en 2014 por hook.io y que luego se ha ido desarrollando mediante proyectos tan importantes como Microsoft Azure Functions, IBM/Apache OpenWhisk, Google Cloud Functions o AWS Lambda."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,43 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="mx.edu.utng.appfragment.MainActivity">
+    <item
+        android:id="@+id/action_que_es"
+        android:title="¿Qué es?"
+        />
+    <item
+        android:id="@+id/action_mas_conocidos"
+        android:title="Más conocidos"
+        />
+    <item
+        android:id="@+id/action_info"
+        android:title="Información">
+        <menu>
+            <item
+                android:id="@+id/action_ventajas"
+                android:title="Ventajas"
+                />
+            <item
+                android:id="@+id/action_desventajas"
+                android:title="Desventajas"
+                />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/action_diferencias"
+        android:title="Diferencias"
+        />
+    <item
+        android:id="@+id/action_versus"
+        android:title="Versus"
+        />
+    <item
+        android:id="@+id/action_acerca"
+        android:title="Acerca de..."
+        />
+    <item
+        android:id="@+id/action_salir"
+        android:title="@string/salir"
+        />
+</menu>

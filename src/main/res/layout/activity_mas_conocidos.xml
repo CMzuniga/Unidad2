@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MasConocidosActivity">
+
+    <ImageView
+        android:layout_width="60pt"
+        android:layout_height="60pt"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/ic_aws" />
+
+    <TextView
+        android:layout_width="222dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="40dp"
+        android:textColor="@android:color/black"
+        android:text="Es el más conocido y usado del mercado. Entre las aplicaciones que puede usar están Python, Go, Java, C# o Node.js. Además, está perfectamente integrado con todos los servicios de Amazon como son DynamoDB, SNS, RDS... lo puedes virtualizar con CloudWatch y lo usan empresas tan conocidas como Netflix." />
+
+    <ImageView
+        android:layout_width="60pt"
+        android:layout_height="60pt"
+        android:layout_marginTop="240dp"
+        android:src="@drawable/ic_azure" />
+
+    <TextView
+        android:layout_width="222dp"
+        android:layout_height="155dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="240dp"
+        android:textColor="@android:color/black"
+        android:text="Está desarrollado por Microsoft desde hace dos años y puedes utilizar con él aplicaciones como Bash, Powershell, Java, Python, C#, F#, PHP o Batch. Muchos de los servicios de Microsoft de su sistema Azure se pueden usar como por ejemplo Cortana." />
+
+    <ImageView
+        android:layout_width="60pt"
+        android:layout_height="60pt"
+        android:layout_marginTop="440dp"
+        android:src="@drawable/ic_google" />
+
+    <TextView
+        android:layout_width="225dp"
+        android:layout_height="161dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="430dp"
+        android:textColor="@android:color/black"
+        android:text="Lo puedes encontrar en la plataforma de Google y solo se puede usar con el código Javascript para ejecutarse en un entorno Node.js. Se integra con el resto de servicios de la compañía como son Firebase, Pub/Sub, Storage o Spanner. Lo puedes monitorizar con Stackdriver." />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
